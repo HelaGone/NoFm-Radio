@@ -45,7 +45,7 @@ if ( $featured_posts_query->have_posts() ):  ?>
                             <span><?php echo get_the_date(); ?> <?php echo esc_html__('BY', 'lifestone'); ?> <?php the_author_posts_link(); ?></span>
                             <?php if(!empty($readmore) && $readmore == 'on'){ ?>
 
-                                <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Leer', 'lifestone'); ?></a>
+                                <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Readmore', 'lifestone'); ?></a>
 
                             <?php } ?>
 

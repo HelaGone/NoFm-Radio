@@ -162,7 +162,7 @@ if ($the_query->have_posts()) {?>
 
                                             <div class="post-footer">
 
-
+                                                <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Readmore', 'lifestone'); ?></a>
 
                                             </div><!-- end of post-footer-->
 

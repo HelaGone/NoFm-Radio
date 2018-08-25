@@ -49,7 +49,7 @@ CSS structure
 32. Contact form
 33. 404 page
 34. Responsive css
-35. Additional shit
+
 
 ============================================================== */
 
@@ -85,7 +85,7 @@ a:hover{
     transition: all 0.3s ease-in-out;
 }
 a:hover{
-    color: #e52a2d;
+    color: #cea525;
     text-decoration: none;
 }
 img{max-width:100%;}
@@ -228,8 +228,7 @@ iframe{
     z-index: 2;
 }
 .pattern-overlay{
-    /*background-image: url(../images/pattern.png);*/
-    background:#000;
+    background-image: url(../images/pattern.png);
     width: 100%;
     height: 100%;
 }
@@ -335,7 +334,7 @@ iframe{
     height: 60%;
     display: inline-block;
     position: absolute;
-    background: #e52a2d;
+    background: #cea525;
     top: 0;
     border-radius: 100%;
     -webkit-animation: bouncee 2s infinite ease-in-out;
@@ -467,7 +466,7 @@ iframe{
 }
 
 .breadcrumb li a:hover,.breadcrumb li.active{
-    color: #e52a2d;
+    color: #cea525;
 }
 
 /* =================================================
@@ -504,7 +503,7 @@ iframe{
 }
 
 .pagination a:hover {
-    border-color: #e52a2d;
+    border-color: #cea525;
 }
 
 .pagination a > i {
@@ -513,7 +512,7 @@ iframe{
 
 .pagination .current {
     color: #121212;
-    border-color: #e52a2d;
+    border-color: #cea525;
 }
 /* ================================================
 ----------------- 09. Side Menu -------------------
@@ -568,7 +567,7 @@ iframe{
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 315px;
+    width: 260px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -593,7 +592,7 @@ ul.drilldown-root {
     line-height: 40px;
     text-transform: uppercase;
     border-color: #8b8b8c;
-    /*border-bottom: 1px solid #2f2f35;*/
+    border-bottom: 1px solid #2f2f35;
     padding: 13px 20px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -611,7 +610,7 @@ ul.drilldown-root {
     color: #fff;
 }
 .sidebar-nav li.active a,.sidebar-nav li a:hover{
-    color: #e52a2d;
+    color: #cea525;
 }
 .sidebar-nav li a {
     font-size: 12px;
@@ -699,7 +698,7 @@ a.menu-icon {
 ================================================= */
 .sidebar-bottom-wrap {
     padding: 0 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 .sidebar-bottom-wrap input[type="text"].textboxsearch {
     background:none; border:none; width:85%; padding:5px 0; height: 30px;color: #ffffff;outline: 0;
@@ -734,7 +733,7 @@ a.menu-icon {
     padding-right: 20px;
 }
 a.social-icon:hover >i {
-    color: #e52a2d;
+    color: #cea525;
 }
 
 /* ==================================================
@@ -949,7 +948,7 @@ a.social-icon:hover >i {
     color: #ffffff;
 }
 .post-article.post-quote .post-content blockquote a:hover{
-    color: #e52a2d;
+    color: #cea525;
 }
 .post-article.post-quote .post-content blockquote span{
     font-size: 13px;
@@ -970,10 +969,10 @@ a.social-icon:hover >i {
     top: 0;
     position: absolute;
 }
-/*.post-article:hover .thumbnail img{
+.post-article:hover .thumbnail img{
     -webkit-filter: sepia(60%);
     filter: sepia(60%);
-}*/
+}
 /* ==================================================
 ----------------- 16. Post Slider -------------------
 ================================================== */
@@ -1011,7 +1010,7 @@ a.social-icon:hover >i {
     display: none;
 }
 .owl-post .owl-pagination .owl-page.active{
-    background: #e52a2d;
+    background: #cea525;
 }
 
 .post-article .thumbnail{
@@ -1112,7 +1111,7 @@ a.category-link:hover{
 .post-article ul.post-author li a:hover,
 .post-article ul.post-author li a:focus{
     text-decoration: none;
-    color: #e52a2d;
+    color: #cea525;
 }
 .post-article .post-content > .post-title{
     position: relative;
@@ -1125,7 +1124,7 @@ a.category-link:hover{
 
 .post-article .post-content .post-title a:hover,
 .post-article .post-content .post-title a:focus{
-    color: #e52a2d;
+    color: #cea525;
     text-decoration: none;
 }
 
@@ -1169,7 +1168,7 @@ a.category-link:hover{
 .alt1 .post-article ul.post-author li a:hover,
 .alt1 .post-article ul.post-author li a:focus{
     text-decoration: none;
-    color: #e52a2d;
+    color: #cea525;
 }
 .alt1 .post-article .post-content > .post-title{
     width: 100%;
@@ -1187,7 +1186,7 @@ a.category-link:hover{
 
 .alt1 .post-article .post-content .post-title a:hover,
 .alt1 .post-article .post-content .post-title a:focus{
-    color: #e52a2d;
+    color: #cea525;
     text-decoration: none;
 }
 .alt1 .post-article .post-footer ul.post-link {
@@ -1302,7 +1301,7 @@ a.category-link:hover{
 
 .post-article .post-footer ul.post-link li a:hover,
 .post-article .post-footer ul.post-link li a:focus{
-    color: #e52a2d;
+    color: #cea525;
     text-decoration: none;
 }
 
@@ -1315,7 +1314,7 @@ a.category-link:hover{
 .post-type-blog.single .post-article {
     position: relative;
     background-color: #fff;
-    padding: 18px 0;
+    padding: 60px 0;
     margin-bottom: 0;
 }
 .post-type-blog.single.alt1 .post-article .post-content{
@@ -1341,7 +1340,7 @@ a.category-link:hover{
     line-height: 28px;
     padding: 10px 20px;
     margin: 0 0 20px;
-    border-left: 3px solid #e52a2d;
+    border-left: 3px solid #cea525;
 }
 .post-type-blog.single .post-article .post-footer {
     position: relative;
@@ -1790,7 +1789,7 @@ ul.recent-post li .item-text h6 {
     overflow: hidden;
 }
 ul.recent-post li .item-text h6 a{color: #333333;}
-ul.recent-post li .item-text h6 a:hover{color: #e52a2d;}
+ul.recent-post li .item-text h6 a:hover{color: #cea525;}
 
 ul.recent-post li .item-meta {
     font-family: "Lato", sans-serif;
@@ -1860,7 +1859,7 @@ ul.widget-link > li > a:hover{
 ul.widget-link > li > a:hover:before,
 ul.widget-link > li.active > a:before{
     content: "\f111";
-    color: #e52a2d;
+    color: #cea525;
 }
 
 /* ===================================================
@@ -1888,9 +1887,9 @@ ul.widget-link > li.active > a:before{
 
 .widget_tag_cloud .tagcloud a:hover, .widget_tag_cloud .tagcloud a:focus{
     text-decoration: none;
-    border: solid 1px #e52a2d;
+    border: solid 1px #cea525;
     color: #ffffff;
-    background: #e52a2d;
+    background: #cea525;
 }
 footer {
     padding: 30px;
@@ -2024,8 +2023,8 @@ form input[type="text"], form input[type="email"], textarea.form-control, form t
     transition: all .15s ease-in-out;
 }
 .send_btn:focus, .send_btn:hover {
-    background-color: #e52a2d;
-    border: 1px solid #e52a2d;
+    background-color: #cea525;
+    border: 1px solid #cea525;
     color: #ffffff;
     text-decoration: none;
     outline: 0;
@@ -2117,7 +2116,7 @@ form input[type="text"], form input[type="email"], textarea.form-control, form t
     line-height: 28px;
     padding: 10px 20px;
     margin: 0 0 20px;
-    border-left: 3px solid #e52a2d;
+    border-left: 3px solid #cea525;
 }
 
 /* ===================================================
@@ -2190,7 +2189,7 @@ form input[type="text"], form input[type="email"], textarea.form-control, form t
 }
 #gmap_content .gmap-item label {
     font-weight: 400;
-    color: #e52a2d;
+    color: #cea525;
     font-size: 14px;
     margin: 0 15px;
 }
@@ -2431,7 +2430,7 @@ a#scrollUp{
 a#scrollUp:before{
     content: "";
     display: block;
-    background-color: #e52a2d;
+    background-color: #cea525;
     border-radius: 2px;
     position: absolute;
     width: 100%;
@@ -2448,7 +2447,7 @@ a#scrollUp:before{
 a#scrollUp:hover:before{
     content: "";
     display: block;
-    background-color: #fff;
+    background-color: #cea525;
     border-radius: 2px;
     position: absolute;
     width: 100%;
@@ -2467,7 +2466,7 @@ a#scrollUp i{
     transition: all 0.4s ease 0s;
 }
 a#scrollUp:hover i{
-    color: #e52a2d;
+    color: #ffffff;
 }
 
 /*
@@ -2475,7 +2474,7 @@ Developer Added
 */
 
 .sidebar-nav li.current-menu-item a{
-    color: #e52a2d;
+    color: #cea525;
 }
 .widget_recent_entries ul {
     padding: 10px 0 0 0;
@@ -2530,7 +2529,7 @@ ul#recentcomments > li > a{
 
 .widget_categories ul > li > a:hover:before, .widget_categories ul > li.active > a:before {
     content: "\f111";
-    color: #e52a2d;
+    color: #cea525;
 }
 
 ul.drilldown-root  li.menu-item-has-children a:after {
@@ -2544,7 +2543,7 @@ ul.drilldown-root  li.menu-item-has-children a:after {
 }
 .item-contact a:hover{
     cursor: pointer;
-    color: #e52a2d;
+    color: #cea525;
     text-decoration: none;
 
 }
@@ -2571,7 +2570,7 @@ ul.drilldown-root  li.menu-item-has-children a:after {
 }
 
 .breadcrumb li:last-child {
-    color: #e52a2d;
+    color: #cea525;
 }
 
 .wp-caption {
@@ -2637,13 +2636,13 @@ ul.drilldown-root  li.menu-item-has-children a:after {
 @media(min-width:768px) {
     a.menu-icon{display: none;}
     #wrapper {
-        padding-left: 315px;
+        padding-left: 260px;
     }
     #wrapper.toggled {
         padding-left: 0;
     }
     #sidebar-wrapper {
-        width: 315px;
+        width: 260px;
     }
     #wrapper.toggled #sidebar-wrapper {
         width: 0;
@@ -3034,7 +3033,7 @@ form.post-password-form input[type="submit"]{
 }
 
 .page-links a span.page-link:hover ,.page-links span.page-link{
-    border-color: #e52a2d;
+    border-color: #cea525;
 }
 .font-icon.social-icons ul li a {
     font-size: 14px;
@@ -3042,56 +3041,3 @@ form.post-password-form input[type="submit"]{
 .blog-container {
     min-height: 100vh;
 }
-
-
-/* ====================================================
------------------ 35. Additional shit -------------------
-==================================================== */
-/*This is a little fix for the breadcrumb images */
-ol.breadcrumb{ display: none !important;}
-.backstretch { background: #000 !important;
-    height:163px !important;
-}
-.backstretch img{ background: #000 !important;
-    max-width:100% !important;
-    height: auto !important;
-    left:0px !important;
-}
-/*Fix background in the slider */
-div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#000 !important;}
-
-/*make cenefa*/
-.home {background-image: url("/wp-content/uploads/2017/10/patron.png");
-    height:100vh;
-}
-
-html,body {height:100%;}
-/*Change player image on hover*/
-.play {
-        width: 130px;
-        height: 195px;
-        position: relative;
-        display: table;
-        margin:0 auto;
-    }
-    .play .lengua {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .play:hover .lengua {
-        display: inline;
-    }
-a.unblack {color:#fff;}
-a.unblack:hover {color:#e52a2d}
-
-.main-social-icons ul{display: flex;padding-left: 0;}
-
-/*MENU*/
-#menu-hk_menu{padding: 0 16px;}
-#menu-hk_menu li{padding: 0;margin:8px;}
-ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 1;*/}
-.menu-item-has-children{position: relative;}
-.menu-item-has-children ul.sub-menu li.menu-item-object-page{display: block;}

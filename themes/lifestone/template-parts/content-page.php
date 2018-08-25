@@ -30,7 +30,6 @@ $postClass = implode(' ', $postClass); ?>
                 if(lifestone_is_enabled_meta('lifestone_page_sidebar_option')){ ?>
 
                     <div class="col-md-8">
-                    
 
                 <?php } else { ?>
 
@@ -80,7 +79,7 @@ $postClass = implode(' ', $postClass); ?>
                         get_sidebar();
                     } ?>
 
-            </div><!-- end of row--><div class="col-md-4 hola">wu </div>
+            </div><!-- end of row-->
 
         </div><!-- end of container -->
 

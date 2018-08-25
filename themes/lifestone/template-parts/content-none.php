@@ -10,7 +10,7 @@
 ?>
 
 <section class="page_404">
-	<h4><?php esc_html_e( 'Sin resultados', 'lifestone' ); ?></h4>
+	<h4><?php esc_html_e( 'Nothing Found', 'lifestone' ); ?></h4>
 
 	<div class="page-content">
 		<?php
@@ -20,7 +20,7 @@
 
 		<?php } elseif ( is_search() ) { ?>
 
-			<p><?php esc_html_e( 'No encontramos lo que estabas buscando. Intenta con otras palabras.', 'lifestone' ); ?></p>
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'lifestone' ); ?></p>
 			<?php if(function_exists('lifestone_error_page_search_form')){
 				echo lifestone_error_page_search_form();
 			} ?>

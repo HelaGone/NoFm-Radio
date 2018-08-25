@@ -1,9 +1,7 @@
 <?php
 
 // @todo to be excluded from distribution file
-get_header(); 
-// echo 'thispage';
-?>
+get_header(); ?>
 
     <!--================= Start home page ==================-->
     <div id="page-content-wrapper">

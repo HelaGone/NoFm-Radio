@@ -119,15 +119,6 @@ if ( ! function_exists( 'lifestone_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'lifestone_setup' );
 
-
-/*
- * Enqueue Custom scripts
-*/
-    function enqueueCutomScrips(){
-        wp_enqueue_script('custom-scripts', get_template_directory_uri().'/js/custom-scripts.js', array(), '0.0.1');
-    }
-    add_action('wp_enqueue_scripts', 'enqueueCutomScrips');
-
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -480,10 +471,3 @@ if(!function_exists('lifestone_header_logo')) {
     }
     add_action('lifestone_header', 'lifestone_header_logo', 5);
 }
-
-
-// MENU WIDGET
-function hk_custom_new_menu() {
-  register_nav_menu('hk-custom-menu', 'My Custom Menu');
-}
-add_action( 'init', 'hk_custom_new_menu' );

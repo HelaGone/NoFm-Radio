@@ -13,7 +13,7 @@ function lifestone_featured_post_banner_fn()
                 "type"        => "dropdown",
                 "holder"      => "div",
                 "heading"     => esc_html__("Readmore button", 'lifestone'),
-                "param_name"  => "Leer",
+                "param_name"  => "readmore",
                 "description" => esc_html__( 'Enable Read-more button', 'lifestone'),
                 "value"       => array(
                     esc_html__('Select', 'lifestone')    => '',

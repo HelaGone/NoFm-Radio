@@ -155,7 +155,7 @@ if(!empty($mediaOption) && $mediaOption == 'gallery'){
                 <li><a href="<?php echo get_day_link( get_the_time('Y'), get_the_time('m'), get_the_time('d')); ?>"><i class="fa fa-clock-o"></i> <?php echo get_the_date(); ?></a></li>
 
             </ul>
-<?php posts_nav_link('—','Nota anterior','Nota siguiente'); ?>
+
         </div><!-- end of post-footer-->
 
     </div>

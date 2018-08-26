@@ -68,6 +68,7 @@
                                     <path d="M8 5v14l11-7z" fill="#ff0000" /><path d="M0 0h24v24H0z" fill="none"/>
                                 </svg>
                             </button>
+                            <span>Push play</span>
                             <ul>
                                 <li>
                                     <button>

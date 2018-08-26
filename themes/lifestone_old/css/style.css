@@ -527,7 +527,7 @@ iframe{
     transition: all 0.5s ease;
 }
 #wrapper.toggled {
-    padding-left: 260px;
+    padding-left: 0px;
 }
 #sidebar-wrapper {
     z-index: 1000;
@@ -545,11 +545,11 @@ iframe{
     transition: all 0.5s ease;
 }
 #wrapper.toggled #sidebar-wrapper {
-    width: 260px;
+    width: 300px;
 }
 #page-content-wrapper, #page-content-wrapper-2 {
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 #wrapper.toggled #page-content-wrapper, #wrapper.toggled #page-content-wrapper-2 {
     position: absolute;
@@ -789,11 +789,11 @@ a.social-icon:hover >i {
 }
 
 .flex-direction-nav .flex-prev {
-    left: -40px;
+    left: 0px;
 }
 
 .flex-direction-nav .flex-next {
-    right: -40px;
+    right: 0px;
 }
 
 .flexslider:hover .flex-direction-nav a {
@@ -817,6 +817,7 @@ a.social-icon:hover >i {
 /* =========================================================
 ----------------- 13. Full page homepage -------------------
 ========================================================= */
+.vc_row{margin:0!important;}
 #fp-nav.right{
     right: 28px;
     margin-right: 10px;
@@ -3095,3 +3096,18 @@ a.unblack:hover {color:#e52a2d}
 ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 1;*/}
 .menu-item-has-children{position: relative;}
 .menu-item-has-children ul.sub-menu li.menu-item-object-page{display: block;}
+
+/*PLAYER*/
+#open_player{padding-left: 20px;}
+#open_player ul{display: flex;padding: 0;margin:0;}
+#open_player ul li{padding: 0;vertical-align: top;margin-right: 3.5%;height: 30px;}
+#open_player button{background:none;padding:0;width:30px;height: 30px;outline: none;border:none;}
+#open_player ul li button img{position: relative;top:-8px;}
+#playMe{border-radius: 50%;border:2px solid red!important;margin: 24px 0px;}
+#playMe:hover{background-color:white;border:2px solid white!important;}
+#playMe svg{position:relative;top:1px;}
+
+/*HK MEDIA QUERIES*/
+@media(max-width: 420px){
+    .ssba-share-text{display: block;}
+}

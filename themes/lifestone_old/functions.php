@@ -124,7 +124,7 @@ add_action( 'after_setup_theme', 'lifestone_setup' );
  * Enqueue Custom scripts
 */
     function enqueueCutomScrips(){
-        wp_enqueue_script('custom-scripts', get_template_directory_uri().'/js/custom-scripts.js', array(), '0.0.1');
+        wp_enqueue_script('custom-scripts', get_template_directory_uri().'/js/custom-scripts.js', array(), '0.0.1', false);
     }
     add_action('wp_enqueue_scripts', 'enqueueCutomScrips');
 

@@ -62,9 +62,42 @@
                         //     wp_nav_menu( $defaults );
                         // }
                     ?>
-                        <audio controls class="player">
-                            <source src="http://s2.voscast.com:8162/;&type=mp3" type="audio/mpeg">
-                        </audio>
+                        <div id="open_player">
+                            <button id="playMe">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" fill="#ff0000" /><path d="M0 0h24v24H0z" fill="none"/>
+                                </svg>
+                            </button>
+                            <ul>
+                                <li>
+                                    <button>
+                                        <img src="<?php echo get_template_directory_uri().'/images/nofm/quicktime.png'?>" width="24" height="24">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="<?php echo get_template_directory_uri().'/images/nofm/realplayer.png'?>" width="24" height="24">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <a href="https://tunein.com/radio/NoFM-Radio-s167908/" rel="noopener nofollow" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri().'/images/nofm/tunein.png'?>" width="24" height="24">
+                                        </a>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="<?php echo get_template_directory_uri().'/images/nofm/winamp.png'?>" width="24" height="24">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="<?php echo get_template_directory_uri().'/images/nofm/wmp.png'?>" width="24" height="24">
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="main-social-icons">
                             <ul>
                                 <li><a class="no-eff" href="http://www.facebook.com/pages/NoFm-Radio/170849102955266" target="_blank"><img src="http://nofm-radio.com/wp-content/themes/brennius/images/light/social/picons06.png"/></a></li>

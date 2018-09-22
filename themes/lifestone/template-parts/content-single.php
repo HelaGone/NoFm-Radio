@@ -114,6 +114,7 @@ if(!empty($mediaOption) && $mediaOption == 'gallery'){
                 if($postShareOption == 'on' && lifestone_is_package_activated()){ ?>
 
                     <div class="post-share">
+                        <!--
                         <div class="share">
                             <?php
                                 $url = get_permalink();
@@ -169,7 +170,7 @@ if(!empty($mediaOption) && $mediaOption == 'gallery'){
 
                             <?php 
                                 endif; ?>
-                        </div><!-- end of share -->
+                        </div> end of share -->
                     </div><!--end of post-share -->
                 <?php 
                     } ?>

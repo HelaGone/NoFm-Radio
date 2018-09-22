@@ -44,11 +44,11 @@ if(lifestone_is_enabled('lifestone_archive_banner_option') || lifestone_is_enabl
     } ?>
 
     <!--================= Start breadcrumb ==================-->
-    <section id="breadcrumb-banner" class="backstretched">
+    <!-- <section id="breadcrumb-banner" class="backstretched">
 
         <div class="vertical-center-js">
 
-            <?php if (!empty($heading)) { ?>
+            <?php/* if (!empty($heading)) { ?>
 
                 <h1 class="section-title"><?php echo esc_html($heading); ?></h1>
 
@@ -64,23 +64,26 @@ if(lifestone_is_enabled('lifestone_archive_banner_option') || lifestone_is_enabl
         <ol class="breadcrumb">
             <?php if (function_exists('bcn_display')) {
                 bcn_display();
-            } ?>
+            } */?>
         </ol>
-    </section>
-
+    </section> -->
     <!--================= End breadcrumb ==================-->
 <?php }?>
 
     <section class="nopadding pattern-overlay blog-masonry">
         <div class="container relative">
+            <?php 
+                $cat_obj = get_queried_object(); ?>
+                <h2 style="color:#fff;">
+                <?php
+                    echo esc_html( $cat_obj->name );
+                    ?>
+                </h2>
             <div class="row p60">
                 <div id="masonry" class="masonry infinite-scroll">
 
                     <?php
-                    if ( have_posts() ) { ?>
-
-
-                        <?php
+                    if ( have_posts() ) { 
                         /* Start the Loop */
                         while (have_posts()) : the_post();
 

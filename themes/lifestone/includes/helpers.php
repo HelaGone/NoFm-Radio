@@ -185,10 +185,10 @@ if(!function_exists('lifestone_error_page_search_form')){
     {
         $output =  '<div class="search-box">
             <form role="search" method="get" class="search-form" action="'.esc_url(home_url( '/' )).'">
-                <input type="search" class="search-field" value="Try Another Search" name="s" title="'. esc_html__('Search for:', 'lifestone') .'" onfocus="if (this.value == \'Try Another Search\')
+                <input type="search" class="search-field" value="" name="s" title="'. esc_html__('Search for:', 'lifestone') .'" onfocus="if (this.value == \'Try Another Search\')
                     this.value = \'\';" onblur="if (this.value == \'\')
                     this.value = \'Try Another Search\';" placeholder="">
-                <button type="submit" class="search-submit" value="Search">'. esc_html__("Search", "lifestone"). '</button></form>
+                <button type="submit" class="search-submit" value="Search">'. esc_html__("Buscar", "lifestone"). '</button></form>
         </div>';
         return $output;
     }

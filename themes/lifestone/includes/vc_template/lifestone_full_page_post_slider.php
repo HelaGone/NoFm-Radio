@@ -49,7 +49,7 @@ if ($the_query->have_posts()) {?>
                                 </ul>
                             </div><!-- post-footer -->
 
-                            <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Readmore', 'lifestone'); ?></a>
+                            <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Leer', 'lifestone'); ?></a>
 
                         </div><!-- post-entry -->
 

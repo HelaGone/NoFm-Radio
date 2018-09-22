@@ -15,18 +15,11 @@
 get_header();
 
 if(lifestone_is_enabled_meta('lifestone_page_banner_option')) {
-
     $heading  = get_post_meta($post->ID, 'lifestone_page_banner_heading', true);
-
     $tagline  = get_post_meta($post->ID, 'lifestone_page_banner_tagline', true);
-
     $bannerBg = get_post_meta($post->ID, 'lifestone_page_banner_image', true);
-
-    if(!empty($bannerBg) && shortcode_exists('lifestone-backstretch-slider')) { ?>
-
-        <?php
+    if(!empty($bannerBg) && shortcode_exists('lifestone-backstretch-slider')) {
         $short = '[lifestone-backstretch-slider ids="'.$bannerBg.'"]';
-
         echo do_shortcode($short);
     } ?>
 

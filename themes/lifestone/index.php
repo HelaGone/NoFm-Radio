@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-
+este es index
     <!--================= Start home page ==================-->
     <div id="page-content-wrapper">
 
@@ -59,7 +59,7 @@ get_header(); ?>
                                     <?php } ?>
                                     <h1 class="page-header-title"><?php the_title(); ?></h1>
                                     <span><?php echo get_the_date(); ?> <?php echo esc_html__('BY', 'lifestone'); ?> <?php the_author_posts_link(); ?></span>
-                                    <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Readmore', 'lifestone'); ?></a>
+                                    <a href="<?php the_permalink(); ?>" class="readmore_btn"><?php echo esc_html__('Leer', 'lifestone'); ?></a>
                                 </div><!-- end of page-header-content-->
 
                             </div><!-- end of inner-->

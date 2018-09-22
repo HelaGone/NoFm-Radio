@@ -15,24 +15,24 @@ msgstr ""
 #: 404.php:17
 #@ _s
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "#BaleBergaLaBida, no encontramos la página. Marca al 5658-1111"
 
 #: 404.php:21
 #@ _s
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr ""
+msgstr "#BaleBergaLaBida, no encontramos nada acá. Cálate estos links o busca."
 
 #: 404.php:33
 #@ _s
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Categorías mas frecuentes"
 
 #. translators: %1$s: smiley
 #: 404.php:51
 #, php-format
 #@ _s
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Intenta buscando en los archivos mensuales. %1$s"
 
 #: comments.php:31
 #, php-format
@@ -40,36 +40,36 @@ msgstr ""
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios &ldquo;%2$s&rdquo;"
 
 #: comments.php:40
 #: comments.php:61
 #@ _s
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navegación de comentarios"
 
 #: comments.php:43
 #: comments.php:64
 #@ _s
 msgid "Older Comments"
-msgstr ""
+msgstr "Comentarios anteriores"
 
 #: comments.php:44
 #: comments.php:65
 #@ _s
 msgid "Newer Comments"
-msgstr ""
+msgstr "Comentarios recientes"
 
 #: comments.php:78
 #@ _s
 msgid "Comments are closed."
-msgstr ""
+msgstr "No se puede comentar."
 
 #: footer.php:18
 #@ _s
 msgid "https://wordpress.org/"
-msgstr ""
+msgstr "http://nofm-radio.com/"
 
 #: footer.php:18
 #, php-format
@@ -81,75 +81,75 @@ msgstr ""
 #, php-format
 #@ _s
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Tema; %1$s por %2$s"
 
 #: functions.php:47
 #@ _s
 msgid "Primary"
-msgstr ""
+msgstr "Primario"
 
 #: functions.php:102
 #@ _s
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra lateral"
 
 #: header.php:25
 #@ _s
 msgid "Skip to content"
-msgstr ""
+msgstr "Ir al contenido"
 
 #: header.php:45
 #@ _s
 msgid "Primary Menu"
-msgstr ""
+msgstr "Menú Principal"
 
 #: inc/template-tags.php:28
 #, php-format
 #@ _s
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Publicado el %s"
 
 #: inc/template-tags.php:33
 #, php-format
 #@ _s
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "por %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:50
 #: inc/template-tags.php:56
 #@ _s
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: inc/template-tags.php:52
 #, php-format
 #@ _s
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Publicado en %1$s"
 
 #: inc/template-tags.php:58
 #, php-format
 #@ _s
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Etiquetado %1$s"
 
 #: inc/template-tags.php:64
 #@ _s
 msgid "Leave a comment"
-msgstr ""
+msgstr "Deja un comentario"
 
 #: inc/template-tags.php:64
 #@ _s
 msgid "1 Comment"
-msgstr ""
+msgstr "1 comentario"
 
 #: inc/template-tags.php:64
 #@ _s
 msgid "% Comments"
-msgstr ""
+msgstr "% comentarios"
 
 #. translators: %s: Name of current post
 #: inc/template-tags.php:71
@@ -157,47 +157,47 @@ msgstr ""
 #, php-format
 #@ _s
 msgid "Edit %s"
-msgstr ""
+msgstr "Editar %s"
 
 #: search.php:19
 #, php-format
 #@ _s
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Resultados de la búsqueda para: %s"
 
 #: template-parts/content-none.php:14
 #@ _s
 msgid "Nothing Found"
-msgstr ""
+msgstr "No encontramos nada"
 
 #: template-parts/content-none.php:21
 #, php-format
 #@ _s
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Publica tu primer post tigre. <a href=\"%1$s\">Dale acá</a>."
 
 #: template-parts/content-none.php:25
 #@ _s
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "No se encontró nada a partir de tu búsqueda. Trata con otras palabras clave."
 
 #: template-parts/content-none.php:31
 #@ _s
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "No podemos encontrar lo que quieres. Mejor busca."
 
 #: template-parts/content-page.php:22
 #: template-parts/content.php:38
 #@ _s
 msgid "Pages:"
-msgstr ""
+msgstr "Páginas:"
 
 #. translators: %s: Name of current post. 
 #: template-parts/content.php:33
 #, php-format
 #@ _s
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Continúa leyendo %s <span class=\"meta-nav\">&rarr;</span>"
 
 #. Theme Name of the plugin/theme
 msgid "_s"

@@ -6,58 +6,38 @@
  *
  * @package Lifestone
  */
-
-get_header(); ?>
-<?php
+get_header();
 
 if(lifestone_is_enabled('lifestone_archive_banner_option') || lifestone_is_enabled('lifestone_archive_cat_image_option')) {
 
     if (lifestone_is_enabled('lifestone_archive_banner_option')) {
-
         $heading = lifestone_get_option('lifestone_archive_banner_heading');
-
         $tagline = lifestone_get_option('lifestone_archive_banner_tagline');
-
         $bannerBg = lifestone_get_option('lifestone_archive_banner_image');
 
-        if(!empty($bannerBg) && shortcode_exists('lifestone-backstretch-slider')) { ?>
-            <?php
+        if(!empty($bannerBg) && shortcode_exists('lifestone-backstretch-slider')) {
             $short = '[lifestone-backstretch-slider ids="'.$bannerBg.'"]';
-
             echo do_shortcode($short);
         }
 
     } else {
-
         $heading = '';
-
         $tagline = '';
-
         $output = '';
 
         if (lifestone_is_enabled('lifestone_archive_cat_title_option')) {
-
             $heading = get_the_archive_title();
-
             $tagline = get_the_archive_description();
         }
 
         if (function_exists('z_taxonomy_image_url') && is_category() || is_tag()) {
-
             $bannerBg = aq_resize(z_taxonomy_image_url(), '1280', '390', true, true, true);
-
-
             if (!empty($bannerBg)) { ?>
-
                 <style>
                     #breadcrumb-banner {
-
                         background-image:url(<?php echo esc_url($bannerBg); ?>);
-
                     }
-
                 </style>
-
             <?php
             }
         }

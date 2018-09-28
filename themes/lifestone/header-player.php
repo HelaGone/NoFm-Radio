@@ -6,4 +6,4 @@
 		<title><?php wp_title(); echo ' | Player' ?></title>
 		<?php wp_head(); ?>
 	</head>
-	<body>
+	<body <?php body_class(); ?> style="background-color:black; text-align: center;">

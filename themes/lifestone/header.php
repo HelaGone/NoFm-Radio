@@ -39,8 +39,7 @@
                             <form id="search_form_1" class="search-form_header" action="<?php echo esc_url(home_url( '/' )); ?>" method="get"><span class="submit-wrap"><i class="fa fa-search" aria-hidden="true"></i></span>
                                 <input type="text" onblur="if (this.value == '') {this.value = 'BUSCAR...'; }" onfocus="if (this.value == 'BUSCAR...') {this.value = '';}" id="search" name="s" value="<?php echo get_search_query() == '' ? esc_attr__('BUSCAR...', 'lifestone') : ''; ?>" class="textboxsearch">
                             </form>
-                        <?php 
-                            do_shortcode('[invoca-player]'); ?>
+                        
                         </div>
                 <?php 
                     endif; ?>
@@ -107,6 +106,10 @@
                                 <li><a class="no-eff" href="http://feeds.feedburner.com/nofm-radio/HgNX" target="_blank"><img src="http://nofm-radio.com/wp-content/themes/brennius/images/light/social/picons20.png"/></a></li>
                             </ul>
                         </div>
+                        <div class="clear"></div>
+
+                        <?php wp_nav_menu( array( 'theme_location' => 'hk-custom-menu', 'container_class' => 'custom-menu-class' ) ); ?>
+
                         <p style="margin-left:0px; margin-top:10px; text-align: center;">Tel: <a href="tel:+5215562748323" class="unblack">62748323</a></p>
                         <div class="patreon_container">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -121,13 +124,10 @@
                                 </a>
                             </figure>
                         </div>
-                        <div class="clear"></div>
-
-                        <?php wp_nav_menu( array( 'theme_location' => 'hk-custom-menu', 'container_class' => 'custom-menu-class' ) ); ?>
 
                         <div class="bottom_logo">
                             <figure>
-                                <img src="<?php echo get_template_directory_uri().'/images/logo.png';?>">
+                                <img src="<?php echo get_template_directory_uri().'/images/logo_blanco.png';?>">
                             </figure>
                         </div>
                     </div>

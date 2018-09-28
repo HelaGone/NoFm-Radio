@@ -698,7 +698,7 @@ a.menu-icon {
 ----------------- 10. Search bar -------------------
 ================================================= */
 .sidebar-bottom-wrap {
-    padding: 0 20px;
+    padding: 0 10% 8% 10%;
     margin-bottom: 0px;
 }
 .sidebar-bottom-wrap input[type="text"].textboxsearch {
@@ -1897,7 +1897,7 @@ ul.widget-link > li.active > a:before{
 }
 footer {
     padding: 30px;
-    background: #111111;
+    background: #000000;
     color: #ffffff;
     /*height: auto !important;*/
     text-transform: uppercase;
@@ -3061,7 +3061,7 @@ ol.breadcrumb{ display: none !important;}
     left:0px !important;
 }
 /*Fix background in the slider */
-div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#fff !important;}
+/*div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#000 !important;}*/
 
 /*make cenefa*/
 .home {background-image: url("/wp-content/uploads/2017/10/patron.png");
@@ -3119,6 +3119,8 @@ ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 
 .patreon_container figure img{width:74px; height: auto;}
 
 .vc_column_container>.vc_column-inner{background-color: black;}
+.bottom_logo{padding:0% 10%;}
+.vc_row-has-fill{background-color: #000!important;}
 
 /*HK MEDIA QUERIES*/
 @media(max-width: 420px){

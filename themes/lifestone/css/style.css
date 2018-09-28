@@ -557,7 +557,7 @@ iframe{
 }
 
 .sidebar-brand{
-    padding: 30px 0;
+    padding: 30px 8px;
 }
 .sidebar-brand a{
     display: inline-block;
@@ -740,7 +740,7 @@ a.social-icon:hover >i {
 /* ==================================================
 ----------------- 11. Home Slider -------------------
 ================================================== */
-.home-slider{padding: 60px 60px 0}
+.home-slider{padding: 60px 60px 0;background-color:#fff;}
 .home-slider .post-article { padding-right:330px; background:#ffffff; position:relative;margin: 0;}
 .home-slider .post-article .post-entry { position:absolute; right:0; height:100%; top:0; width:330px; padding:30px; color:#333333; }
 .home-slider .post-article .post-entry:before { background:#ffffff; top:50%; content:""; height:20px; left:-9px; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:20px; }
@@ -3061,7 +3061,7 @@ ol.breadcrumb{ display: none !important;}
     left:0px !important;
 }
 /*Fix background in the slider */
-/*div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#000 !important;}*/
+div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#000 !important;}
 
 /*make cenefa*/
 .home {background-image: url("/wp-content/uploads/2017/10/patron.png");
@@ -3120,7 +3120,7 @@ ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 
 
 .vc_column_container>.vc_column-inner{background-color: black;}
 .bottom_logo{padding:0% 10%;}
-.vc_row-has-fill{background-color: #000!important;}
+
 
 /*HK MEDIA QUERIES*/
 @media(max-width: 420px){

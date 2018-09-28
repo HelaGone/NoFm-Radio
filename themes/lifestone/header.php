@@ -74,24 +74,24 @@
                                 <ul>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/iconos/realplayer.png'?>" width="24" height="24">
+                                            <img src="<?php echo get_template_directory_uri().'/images/realplayer.png'?>" width="24" height="24">
                                         </button>
                                     </li>
                                     <li>
                                         <button class="external_player">
                                             <a href="https://tunein.com/radio/NoFM-Radio-s167908/" rel="noopener nofollow" target="_blank">
-                                                <img src="<?php echo get_template_directory_uri().'/images/iconos/tunein.png'?>" width="24" height="24">
+                                                <img src="<?php echo get_template_directory_uri().'/images/tunein.png'?>" width="24" height="24">
                                             </a>
                                         </button>
                                     </li>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/iconos/winamp.png'?>" width="24" height="24">
+                                            <img src="<?php echo get_template_directory_uri().'/images/winamp.png'?>" width="24" height="24">
                                         </button>
                                     </li>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/iconos/windowsmedia.png'?>" width="24" height="24">
+                                            <img src="<?php echo get_template_directory_uri().'/images/windowsmedia.png'?>" width="24" height="24">
                                         </button>
                                     </li>
                                 </ul>

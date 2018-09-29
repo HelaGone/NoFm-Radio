@@ -13,10 +13,8 @@ jQuery(document).ready(function(){
 			let params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no, width=400,height=200,left=100,top=100';
 			open('./nofm-radio/player/', 'NoFM-Radio', params);
 		});
-	}
+	}//END onloaf function
+
+
+
 })();//END PLAIN JAVASCRIPT
-
-
-
-//tunein
-// https://tunein.com/radio/NoFM-Radio-s167908/

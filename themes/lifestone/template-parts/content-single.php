@@ -3,12 +3,11 @@ $thumb     = get_post_thumbnail_id();
 $imgUrl    = wp_get_attachment_url( $thumb, 'full' );
 $mediaOption = get_post_meta( $post->ID, 'lifestone_post_media_option', true );
 $postClass = get_post_class();
-$postClass = implode( ' ', $postClass );
+array_push($postClass, 'no-box-shadow', 'post-article');
 if(!empty($mediaOption) && $mediaOption == 'gallery'){
     $postClass .= ' post-slider';
 } ?>
-
-    <div id="post-<?php the_ID(); ?>" class="post-article <?php echo esc_attr($postClass); ?>">
+    <div id="post-<?php the_ID(); ?>" <?php if(is_single()){ post_class($postClass); } ?> >
         <div class="post-entry">
             <div class="thumbnail">
                 <?php 

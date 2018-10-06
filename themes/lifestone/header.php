@@ -74,7 +74,9 @@
                                 <ul>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/realplayer.png'?>" width="24" height="24">
+                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri().'/images/realplayer.png'?>" width="24" height="24">
+                                            </a>
                                         </button>
                                     </li>
                                     <li>
@@ -86,12 +88,16 @@
                                     </li>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/winamp.png'?>" width="24" height="24">
+                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri().'/images/winamp.png'?>" width="24" height="24">
+                                            </a>
                                         </button>
                                     </li>
                                     <li>
                                         <button class="external_player">
-                                            <img src="<?php echo get_template_directory_uri().'/images/windowsmedia.png'?>" width="24" height="24">
+                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri().'/images/windowsmedia.png'?>" width="24" height="24">
+                                            </a>
                                         </button>
                                     </li>
                                 </ul>

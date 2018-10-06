@@ -27,7 +27,7 @@
 	}
 ?>
 	<section class="player_container">
-		<h2 style="color:red; margin-top:0px; font-weight: bold;font-family: sans-serif; ">No FM</h2>
+		<h2 style="color:red; margin-top:0px; font-weight: bold;font-family: sans-serif; ">NoFM<br><span style="color:#fff; font-size:70%;">TODO MENOS MIEDO</span></h2>
 		<audio controls class="player" autoplay>
 		    <source src="http://s2.voscast.com:8162/;&type=mp3" type="audio/mpeg">
 		</audio>

@@ -3126,7 +3126,11 @@ ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 
 .no-box-shadow{box-shadow: none;}
 .no-box-shadow:hover{box-shadow: none;}
 
+.mobile_logo_header{width:100%;background-color:#000;padding:20px 8px;display: none;}
 
+@media(max-width: 732px){
+    .mobile_logo_header{display:block;max-width: 732px;}
+}
 /*HK MEDIA QUERIES*/
 @media(max-width: 420px){
     .ssba-share-text{display: block;}

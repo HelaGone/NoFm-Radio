@@ -112,7 +112,7 @@
 
                         <p style="margin-left:0px; margin-top:10px; text-align: center;">Tel: <a href="tel:+5215562748323" class="unblack">62748323</a></p>
                         <div class="patreon_container">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="8KBZCV9NSWUQU">
                                 <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea." style="margin-left:20px; margin-top:10px;">

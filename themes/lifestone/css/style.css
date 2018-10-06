@@ -3061,7 +3061,7 @@ ol.breadcrumb{ display: none !important;}
     left:0px !important;
 }
 /*Fix background in the slider */
-div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#000 !important;}
+div[class^="vc_custom"], div[class*=" vc_custom"] {background-image:none !important; background:#fff;}
 
 /*make cenefa*/
 .home {background-image: url("/wp-content/uploads/2017/10/patron.png");
@@ -3118,7 +3118,9 @@ ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 
 .patreon_container{display: flex;justify-content: space-around;}
 .patreon_container figure img{width:74px; height: auto;}
 
-.vc_column_container>.vc_column-inner{background-color: black;}
+.vc_column_container>.vc_column-inner:not(.home){background-color: #000;}
+.vc_column_container>.vc_column-inner.vc_custom_1470016007132{background-color: #fff;}
+
 .bottom_logo{padding:0% 10%;}
 
 .no-box-shadow{box-shadow: none;}

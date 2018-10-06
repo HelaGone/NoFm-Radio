@@ -487,3 +487,12 @@ function hk_custom_new_menu() {
   register_nav_menu('hk-custom-menu', 'My Custom Menu');
 }
 add_action( 'init', 'hk_custom_new_menu' );
+
+
+function hk_limit_home_posts( $query ) {
+    if ( $query->is_home() && $query->is_main_query() ) {
+        $query->set( 'posts_per_page', 20 );
+    }
+}
+add_action( 'pre_get_posts', 'hk_limit_home_posts' );
+

@@ -12,9 +12,9 @@
             </div>
             <!--================= Start Footer ==================-->
             <footer class="section fp-auto-height">
-                <div class="container">
+                <div class="this_container">
                     <div class="row">
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-md-12">
                             <div class="sub-footer">
                                 <span class="copyright">
                             	   <img src="http://nofm-radio.com/wp-content/themes/brennius/images/nofm/nofm-logo-footer.png" style="float: left; margin-right:20px;">                    	

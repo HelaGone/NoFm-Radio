@@ -79,9 +79,7 @@ get_header(); ?>
                             <?php         
                                 endif;    
                             ?>
-                            <div class="col-md-4 hola" style="background-image:url(http://dev.nofm-radio.com/wp-content/uploads/2017/10/patron.png);height:auto;margin-top:13px;">
-                                wuwuwuwu 
-                            </div>
+                            <div class="col-md-4 hola" style="background-image:url(http://dev.nofm-radio.com/wp-content/uploads/2017/10/patron.png);height:auto;margin-top:13px;"></div>
                         </div><!--end of row -->
                     </div><!-- end of container-realtive -->
                 </div><!-- end of post-type-blog -->

@@ -25,11 +25,11 @@ get_header(); ?>
     } ?>
 
 	<!--================= Start breadcrumb ==================-->
-	<section id="breadcrumb-banner" class="backstretched">
+	<!-- <section id="breadcrumb-banner" class="backstretched">
 
 		<div class="vertical-center-js">
 
-            <?php if(!empty($tagline)) { ?>
+            <?php/* if(!empty($tagline)) { ?>
 
 			    <h5 class="category-post"><em><?php echo esc_html($tagline); ?></em></h5>
 
@@ -47,9 +47,9 @@ get_header(); ?>
 
 				bcn_display();
 
-			} ?>
+			} */?>
 		</ol>
-	</section>
+	</section> -->
 	<!--================= Start breadcrumb ==================-->
 <?php } ?>
 

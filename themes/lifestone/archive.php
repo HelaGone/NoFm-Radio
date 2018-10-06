@@ -74,7 +74,7 @@ if(lifestone_is_enabled('lifestone_archive_banner_option') || lifestone_is_enabl
         <div class="container relative">
             <?php 
                 $cat_obj = get_queried_object(); ?>
-                <h2 style="color:#fff;">
+                <h2 style="color:#000;">
                 <?php
                     echo esc_html( $cat_obj->name );
                     ?>

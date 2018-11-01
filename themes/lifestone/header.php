@@ -10,6 +10,15 @@
             <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php
         endif; ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91771961-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-91771961-6');
+    </script>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -73,32 +82,24 @@
                             <div>
                                 <ul>
                                     <li>
-                                        <button class="external_player">
-                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
-                                                <img src="<?php echo get_template_directory_uri().'/images/realplayer.png'?>" width="24" height="24">
-                                            </a>
-                                        </button>
+                                        <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri().'/images/realplayer.png'?>" width="24" height="24">
+                                        </a>
                                     </li>
                                     <li>
-                                        <button class="external_player">
-                                            <a href="https://tunein.com/radio/NoFM-Radio-s167908/" rel="noopener nofollow" target="_blank">
-                                                <img src="<?php echo get_template_directory_uri().'/images/tunein.png'?>" width="24" height="24">
-                                            </a>
-                                        </button>
+                                        <a href="https://tunein.com/radio/NoFM-Radio-s167908/" rel="noopener nofollow" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri().'/images/tunein.png'?>" width="24" height="24">
+                                        </a>
                                     </li>
                                     <li>
-                                        <button class="external_player">
-                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
-                                                <img src="<?php echo get_template_directory_uri().'/images/winamp.png'?>" width="24" height="24">
-                                            </a>
-                                        </button>
+                                        <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri().'/images/winamp.png'?>" width="24" height="24">
+                                        </a>
                                     </li>
                                     <li>
-                                        <button class="external_player">
-                                            <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
-                                                <img src="<?php echo get_template_directory_uri().'/images/windowsmedia.png'?>" width="24" height="24">
-                                            </a>
-                                        </button>
+                                        <a href="http://station.voscast.com/5111bba67feeb/" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri().'/images/windowsmedia.png'?>" width="24" height="24">
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

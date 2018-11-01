@@ -103,12 +103,35 @@ if(!empty($mediaOption) && $mediaOption == 'gallery'){
                             <?php echo lifestone_tags(); ?>
                         </div>
                 <?php
-                    endif;
+                    endif; ?>
 
-                    previous_post_link('&lt; %link', '<strong>Anterior</strong>');  
+                    <div id="cooler-nav" class="navigation">
+                        <?php 
+                        $prevPost = get_previous_post(true);
+                        if($prevPost){ ?>
+                            <div class="nav-box previous">
+                                <?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, array(100,100) );?>
+                                <?php previous_post_link('%link',"$prevthumbnail  <p>%title</p>", TRUE); ?>
+                            </div>
+                        <?php 
+                        } 
+
+                        $nextPost = get_next_post(true);
+                        if($nextPost) { ?>
+                            <div class="nav-box next" style="float:right;">
+                                <?php 
+                                $nextthumbnail = get_the_post_thumbnail($nextPost->ID, array(100,100)); 
+                                next_post_link('%link',"$nextthumbnail  <p>%title</p>", TRUE); 
+                                ?>
+                            </div>
+                        <?php 
+                        } ?>
+                    </div><!--#cooler-nav div -->
+
+                    <!--previous_post_link('&lt; %link', '%title');  
                     echo ' | ';
-                    next_post_link('%link &gt;', '<strong>Siguente</strong>'); 
-
+                    next_post_link('%link &gt;', '%title');-->
+                <?php
                 $postShareOption = lifestone_get_option('lifestone_single_post_share_option', 'on');
                 if($postShareOption == 'on' && lifestone_is_package_activated()){ ?>
 

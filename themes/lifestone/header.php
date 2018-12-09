@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php
-        if ( is_singular() && pings_open( get_queried_object() ) ):
-        ?>
+        if ( is_singular() && pings_open( get_queried_object() ) ): ?>
             <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php
         endif; ?>
@@ -16,7 +15,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-91771961-6');
     </script>
     <?php wp_head(); ?>

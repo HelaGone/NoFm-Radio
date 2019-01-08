@@ -3147,7 +3147,7 @@ ul.sub-menu{padding:0 16px;margin:0;display: none;/*position: absolute;z-index: 
 #sumo_abolengo nav.sumo_navigation{max-width: 906px;}
 #sumo_abolengo nav.sumo_navigation ul{margin:0;padding: 0; display: flex;justify-content: space-between;flex-wrap: wrap;}
 #sumo_abolengo nav.sumo_navigation ul li{width:calc(100% / 3);padding: 90px;}
-#sumo_abolengo section.section_figure{margin-bottom:160px;}
+#sumo_abolengo section.section_figure{margin-bottom:80px;padding-bottom:80px;border-bottom:1px solid white;}
 #sumo_abolengo section.section_figure figure img{width:50%;}
 div.sumo_texto{padding:0 16px;}
 div.sumo_texto p{text-transform: uppercase;color:#fff;font-size: 130%;}

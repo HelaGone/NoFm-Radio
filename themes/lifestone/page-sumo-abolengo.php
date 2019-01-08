@@ -32,7 +32,7 @@ get_header();
 				<li>
 					<a href="#section_we_human">
 						<figure>
-							<img src="<?php echo get_template_directory_uri().'/images/sabolengo/nav_3.png'; ?>" alt="We Human">
+							<img src="<?php echo get_template_directory_uri().'/images/sabolengo/nav_5.png'; ?>" alt="We Human">
 						</figure>
 					</a>
 				</li>
@@ -46,7 +46,7 @@ get_header();
 				<li>
 					<a href="#section_mp">
 						<figure>
-							<img src="<?php echo get_template_directory_uri().'/images/sabolengo/nav_5.png'; ?>" alt="M.P.">
+							<img src="<?php echo get_template_directory_uri().'/images/sabolengo/nav_3.png'; ?>" alt="M.P.">
 						</figure>
 					</a>
 				</li>
